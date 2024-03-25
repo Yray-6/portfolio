@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div>
         <nav className="fixed flex z-50 justify-between px-16 py-8 w-[100%]">
-            <p className="text-5xl">Y-RAY LOGO</p>
+            <p className="text-5xl">Y-RAY LOGOs</p>
            <button onClick={toggleMenu}><FontAwesomeIcon icon={faBars} className="text-5xl"/></button> 
             <div className={` ${isOpen ? "absolute":"hidden"} bg-black w-[100%] left-0 h-[1000px] top-[0] bottom-0 py-36  text-center`}>
             <p className="mb-10"><NavLink onClick={toggleMenu} style={({ isActive }) => ({ color: isActive ? "red" : "white" })} to="/" className="text-5xl">Home</NavLink></p>    
