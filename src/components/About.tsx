@@ -5,7 +5,7 @@ import { faGaugeHigh, faPaintbrush, faPuzzlePiece } from '@fortawesome/free-soli
 
 export default function About() {
   return (
-    <div className=" bg-black pt-16">
+    <div className="  pt-16">
         <div className=" text-6xl text-center pt-10">
             About <span className=" text-primary">Me</span>
         </div>
@@ -37,7 +37,7 @@ export default function About() {
                 
                 <FontAwesomeIcon icon={faPaintbrush} className="text-6xl"/>
                 <div className="text-2xl font-semibold mt-10">
-                User Interface (UI) <span className="text-primary">Development</span> 
+                User Interface (UI) <br /> <span className="text-primary">Development</span> 
                 </div>
                 <div className="mt-5 text-xl">
                 Using frontend technologies to Ensure that the development  of a UI is visually appealing, responsive, and user-friendly and enhancing the overall user experience of web applications.
