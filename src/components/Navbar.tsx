@@ -40,7 +40,7 @@ export default function Navbar() {
       {/* Foreground Text */}
       <span><p className="mb-10"><NavLink onClick={toggleMenu} style={({ isActive }) => ({ color: isActive ? "red" : "white" })} to="/" className="text-5xl">Home</NavLink></p> </span>
     
-               
+      <span><p className="mb-10"><NavLink onClick={toggleMenu} style={({ isActive }) => ({ color: isActive ? "red" : "white" })} to="about" className="text-5xl">About</NavLink></p> </span> 
            <p className="mb-10">   <NavLink onClick={toggleMenu} style={({ isActive }) => ({ color: isActive ? "red" : "white" })} to="contact" className="text-5xl mb-10">Contact</NavLink></p>  
              <p className="mb-10"><NavLink onClick={toggleMenu} style={({ isActive }) => ({ color: isActive ? "red" : "white" })} to="portfolio" className="text-5xl mb-10">portfolio</NavLink></p>   
                 

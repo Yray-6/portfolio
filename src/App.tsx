@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Portfolio from './components/Portfolio'
 import About from './components/About'
 import { Particlebg } from './components/Particlebg'
+import Home from './components/Home'
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
     
       <Navbar/>
       <Routes>
-        <Route path='/' element={<About/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
