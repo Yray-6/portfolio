@@ -44,7 +44,7 @@ export default function Navbar() {
            <p className="mb-10">   <NavLink onClick={toggleMenu} style={({ isActive }) => ({ color: isActive ? "red" : "white" })} to="contact" className="text-5xl mb-10">Contact</NavLink></p>  
              <p className="mb-10"><NavLink onClick={toggleMenu} style={({ isActive }) => ({ color: isActive ? "red" : "white" })} to="portfolio" className="text-5xl mb-10">portfolio</NavLink></p>   
                 
-                <p onClick={toggleMenu}>close</p>
+                <div className="text-5xl mb-10 absolute top-10 right-10 cursor-pointer" onClick={toggleMenu}>&#10005;</div>
             </div>
         </nav>
     </div>
